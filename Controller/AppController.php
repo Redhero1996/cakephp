@@ -32,4 +32,8 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	public $components = array('DebugKit.Toolbar', 'session');
+
+	/*function beforeFilter(){
+    Configure::load('my_configs');
+  }*/
 }
